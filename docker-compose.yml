@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  django:
+    build: .
+    environment:
+     - MAGIC_MESSAGE=Docker Compose
+     - SECRET_KEY=k7fz3=q#fs5oomnf6-58pbz5g^*mcyfhfo2xbo-b1h_xih80gg
+    ports:
+      - "8000:8000"
+
